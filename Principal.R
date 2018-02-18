@@ -19,7 +19,7 @@ suppressPackageStartupMessages(require(caTools))
 
 
 #Read in data 
-data1 <- read_csv("~/Desktop/principal/GRP3_2010-2017_msci_acwi_r1k_sp_pmi.csv")
+data1 <- read_csv("../GRP3_2010-2017_msci_acwi_r1k_sp_pmi.csv")
 
 #We are only using the data since using the entirety of the data is not computationally possible on my desktop
 if(FALSE){
@@ -64,4 +64,4 @@ head(cs)
 
 
 
-
+#TEST IF I CAN CHANGE IT!
